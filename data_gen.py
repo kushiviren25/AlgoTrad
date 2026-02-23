@@ -2,7 +2,7 @@ import requests
 import pandas as pd 
 
 
-API_KEY =  "REMOVED_API_KEY"
+API_KEY =  'YOUR API KEY'
 SYMBOL = "AAPL"
 
 url = "https://www.alphavantage.co/query"
