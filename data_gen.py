@@ -1,8 +1,9 @@
 import requests 
 import pandas as pd 
+import os 
+from dotenv import load_dotenv
 
-
-API_KEY =  'YOUR API KEY'
+API_KEY = os.getenv("apikey")
 SYMBOL = "AAPL"
 
 url = "https://www.alphavantage.co/query"
